@@ -1,0 +1,6 @@
+framework module Pointr {
+    umbrella header "Pointr.h"
+    
+    export *
+    module * { export * }
+}

@@ -1,0 +1,81 @@
+{
+    "sdkConfiguration": {
+        "baseUrl": "https://kpmg.pointr.cloud",
+        "beaconBrandName": "kontakt",
+        "uuidList": [
+                     {
+                     "index": 1,
+                     "uuid": "AAAAAAA0-BBB0-CCC0-DDD0-4B141ABCDE00"
+                     }
+                     ]
+    },
+    "facilityConfiguration": {
+        "mapMinLevel": "0",
+        "mapMaxLevel": "2",
+        "name": "75 CRR",
+        "facilityId": "1",
+        "mapWidthMeters": "82.0",
+        "mapHeightMeters": "82.0"
+    },
+    "venueConfiguration": {
+        "name": "KPMG",
+        "internalIdentifier": 1,
+        "beaconType": "kontakt"
+    },
+    "geofenceManagerConfiguration": {
+        "exitPushMessage": "Goodbye",
+        "isEnabled": true,
+        "regionTimeoutInterval": 30.0,
+        "shouldNotifyEnterExit": true,
+        "shouldNotifyWithPushMessage": true,
+        "welcomePushMessage": "Welcome to KPMG 75 CRR! Open the app for navigation"
+    },
+    "locationSharingConfiguration": {
+        "positionUploadIntervalSeconds": 90.0
+    },
+    "pathManagerConfiguration": {
+        "arrivalThresholdInMetres": 5.0,
+        "rerouteThresholdInMetres": 15.0
+    },
+    "poiManagerConfiguration": {
+        "shouldShowPortalsAsPois": true
+    },
+    "positionManagerConfiguration": {
+        "accuracyMultiplier": 10.0,
+        "biasPower": 2.2,
+        "maxWalkingSpeed": 4.0,
+        "measurementHistoryTimespan": 5.0,
+        "stepInterval": 5.0,
+        "isBackgroudPositioningEnabled": false,
+        "isBackgroundPositioningEnabled": false,
+        "thresholdForLosingPositionInSeconds": 60,
+        "thresholdForFadingPositionInSeconds": 10,
+        "shouldResetOnLevelChange": true,
+        "OHCloneDistributionRadius": 3,
+        "OHMinNumberOfClones": 10,
+        "OHMinCloneDiversity": 2,
+        "ICCloneKillDistance": 10
+    },
+    "userInterfaceConfiguration": {
+        "accuracyCircleMaxSize": 5.0,
+        "accuracyCircleMinSize": 1.0,
+        "accuracyCirclePulseColour": "102F82",
+        "accuracyCircleStaticColour": "102F82",
+        "maxZoomScale": 8,
+        "pathColor": "2980B9",
+        "pathWidth": 3.5,
+        "shouldCheckAnnotationClash": true,
+        "mapRotationLimitAngleInDegrees": 6.0,
+        "isAugmentedRealityEnabled": false
+    },
+    "carparkConfiguration": {
+        "isEnabled": false
+    },
+    "dataManagerConfiguration": {
+        "versionApi": "/exportdata/RetrieveExportData",
+        "graphApi": "/exportdata/RetrieveExportData?data=graph",
+        "poiApi": "/exportdata/RetrieveExportData?data=2",
+        "wallApi": "/exportdata/RetrieveExportData?data=5",
+        "configurationApi": "/exportdata/RetrieveExportData?data=9"
+    }
+}
